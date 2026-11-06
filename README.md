@@ -124,7 +124,7 @@ The Kali Linux desktop environment was displayed, confirming that the virtual ma
 
 **Screenshot: Kali Linux Desktop**
 
-![Kali Linux Desktop](screenshots/02-kali-linux-desktop.jpg)
+![Kali Linux Desktop](IMG-20261105-WA0022.jpg)
 
 ### 7.3 Manual IPv4 Configuration
 
