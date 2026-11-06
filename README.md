@@ -125,7 +125,7 @@ The following values were entered:
 
 These settings allowed the Kali Linux virtual machine to communicate through the configured virtual network.
 
-**Screenshot: Manual IPv4 Configuration**
+
 
 ![Kali IPv4 Configuration](IMG-20261105-WA0020.jpg)
 
@@ -143,7 +143,6 @@ The terminal displayed successful replies from the destination IP address.
 
 This confirmed that the Kali Linux virtual machine could communicate with the external IP address during the test.
 
-**Screenshot: Ping Connectivity Test**
 
 ![Ping Test](IMG-20261105-WA0024.jpg)
 
@@ -153,9 +152,9 @@ Finally, Firefox was opened inside Kali Linux.
 
 Google was accessed successfully, demonstrating that web access was available from the virtual machine.
 
-**Screenshot: Firefox Web Access**
 
-![Firefox Web Access](screenshots/06-firefox-web-access-test.jpg)
+
+![Firefox Web Access](IMG-20261105-WA0021.jpg)
 
 ## 8. Problems Encountered and Solutions
 
