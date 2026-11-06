@@ -199,7 +199,6 @@ I gained a better understanding of how the ping command can be used to test conn
 
 Another challenge I faced was creating and configuring the GitHub repository for this project. I had to understand how to create a repository, organize the project files, and prepare the README.md file to document my work properly.
 
-Since I was using an Android phone to manage the repository, some GitHub operations were less familiar to me and required additional attention.
 
 **Solution:**
 
