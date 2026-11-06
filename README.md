@@ -174,7 +174,7 @@ This confirmed that the Kali Linux virtual machine could communicate with the ex
 
 **Screenshot: Ping Connectivity Test**
 
-![Ping Test](screenshots/05-internet-connectivity-ping-test.jpg)
+![Ping Test](IMG-20261105-WA0024.jpg)
 
 ### 7.6 Testing Internet Access Using Firefox
 
