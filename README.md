@@ -114,7 +114,7 @@ The adapter was configured with the following settings:
 
 **Screenshot: VirtualBox Network Adapter Configuration**
 
-![VirtualBox Network Adapter](screenshots/01-virtualbox-kali-network-adapter.jpg)
+![VirtualBox Network Adapter](IMG-20261105-WA0023.jpg)
 
 ### 7.2 Starting Kali Linux
 
