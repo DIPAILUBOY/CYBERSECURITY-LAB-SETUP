@@ -208,19 +208,11 @@ I took time to learn how to create and configure the repository using GitHub. I 
 
 This experience helped me become more familiar with GitHub, repository management, Markdown documentation, and organizing project files. It also improved my confidence in using GitHub for future technical projects.
 
-## 9. Personal Challenges During the Internship
 
-One of the biggest difficulties I faced during this internship was that my laptop was stolen.
 
-This situation affected my progress because I had to ask my parents for additional money to purchase another laptop so that I could continue working on the project.
 
-Despite this unexpected situation, I managed to obtain another laptop and continue with the practical work.
 
-As a result, I submitted my project on the deadline day.
-
-This experience taught me the importance of perseverance, determination, and adapting to unexpected challenges.
-
-## 10. Previous Knowledge and Learning Experience
+## 9. Previous Knowledge and Learning Experience
 
 Before starting this practical exercise, I was already familiar with Ubuntu Linux.
 
@@ -244,7 +236,9 @@ Through this laboratory exercise, I gained practical knowledge and experience in
 - Testing network connectivity using the ping command.
 - Verifying Internet access using Firefox.
 - Troubleshooting basic virtualization and networking problems.
+  
 -Learning About Virtual Machine Snapshots
+
 A snapshot allows you to save the current state of a virtual machine at a particular moment. This means that if something goes wrong later, you can return to the saved state without having to install and configure everything again.
 
 One of the most important things I learned was how to independently configure a Kali Linux virtual laboratory and establish network connectivity.
