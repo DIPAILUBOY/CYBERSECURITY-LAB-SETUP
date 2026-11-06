@@ -52,7 +52,7 @@ The following hardware was used as the host system for this cybersecurity labora
 | Storage Capacity | 1 TB |
 | Virtualization Software | Oracle VM VirtualBox 7.2.22 |
 | Additional Package | Oracle VM VirtualBox Extension Pack 7.2.22 |
-| Guest Operating System | Kali Linux |
+| Guest Operating System | Kali Linux 2026.3 |
 
 ## 5. Virtual Machine Configuration
 
@@ -62,13 +62,10 @@ The following configuration was used:
 
 | Parameter | Configuration |
 |---|---|
-| Virtual Machine | Kali Linux |
+| Virtual Machine | Kali Linux 2026.3 |
 | Network Adapter | Adapter 1 |
 | Adapter Type | Intel PRO/1000 MT Desktop (82540EM) |
 | Network Mode | NAT Network |
-| Network Name | natnetwork |
-| Promiscuous Mode | Allow All |
-| Cable Connected | Enabled |
 
 ## 6. Network Configuration
 
@@ -104,7 +101,7 @@ The adapter was configured with the following settings:
 
 ![VirtualBox Network Adapter](IMG-20261105-WA0023.jpg)
 
-### 7.2 Starting Kali Linux
+### 7.2 Starting Kali Linux 2026.3
 
 After configuring the virtual network adapter, the Kali Linux virtual machine was started successfully.
 
