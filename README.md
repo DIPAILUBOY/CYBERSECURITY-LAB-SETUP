@@ -26,7 +26,7 @@ The main objectives of this project were:
 - Test network connectivity using the ping command.
 - Verify Internet access using Firefox.
 - Gain practical knowledge of Linux and networking.
-- Document the laboratory setup with screenshots.
+
 
 ## 3. Tools and Technologies
 
@@ -252,11 +252,6 @@ All cybersecurity experiments, network scans, and penetration testing activities
 ## 12. Author Information
 
 - **Author:** Ishatse Fleury
-- **Project:** Cybersecurity Lab Setup
-- **Host Operating System:** Windows
-- **Virtualization Platform:** Oracle VM VirtualBox 7.2.22
-- **Guest Operating System:** Kali Linux
-- **Project Type:** Practical Cybersecurity Laboratory
+- Cybersecurity Enthusiast
 
----
 
