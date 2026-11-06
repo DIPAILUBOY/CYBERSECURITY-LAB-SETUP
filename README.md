@@ -141,7 +141,7 @@ These settings allowed the Kali Linux virtual machine to communicate through the
 
 **Screenshot: Manual IPv4 Configuration**
 
-![Kali IPv4 Configuration](screenshots/03-kali-ipv4-manual-configuration.jpg)
+![Kali IPv4 Configuration](IMG-20261105-WA0020.jpg)
 
 ### 7.4 Configuring the VirtualBox NAT Network
 
