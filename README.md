@@ -88,14 +88,6 @@ The following IPv4 configuration was used:
 | DNS Server | 10.0.0.1 |
 | IPv6 | Disabled |
 
-### Understanding the Network Configuration
-
-- **IP Address:** Identifies the Kali Linux virtual machine within the network.
-- **Subnet Prefix (/24):** Defines the network portion of the IPv4 address.
-- **Default Gateway:** Provides a route for communication with networks outside the local network.
-- **DNS Server:** Resolves domain names into IP addresses.
-- **NAT Network:** Allows virtual machines to access external networks through the host's network connection.
-
 ## 7. Laboratory Setup and Implementation
 
 ### 7.1 VirtualBox Network Adapter Configuration
@@ -109,10 +101,6 @@ The adapter was configured with the following settings:
 - Attached to: NAT Network
 - Name: natnetwork
 - Adapter Type: Intel PRO/1000 MT Desktop (82540EM)
-- Promiscuous Mode: Allow All
-- Cable Connected: Enabled
-
-**Screenshot: VirtualBox Network Adapter Configuration**
 
 ![VirtualBox Network Adapter](IMG-20261105-WA0023.jpg)
 
@@ -120,9 +108,7 @@ The adapter was configured with the following settings:
 
 After configuring the virtual network adapter, the Kali Linux virtual machine was started successfully.
 
-The Kali Linux desktop environment was displayed, confirming that the virtual machine was running.
-
-**Screenshot: Kali Linux Desktop**
+The Kali Linux desktop environment was displayed, confirming that the virtual machine was successfully running.
 
 ![Kali Linux Desktop](IMG-20261105-WA0022.jpg)
 
@@ -143,22 +129,7 @@ These settings allowed the Kali Linux virtual machine to communicate through the
 
 ![Kali IPv4 Configuration](IMG-20261105-WA0020.jpg)
 
-### 7.4 Configuring the VirtualBox NAT Network
-
-The VirtualBox NAT Network manager was configured with the following settings:
-
-- Network Name: natnetwork
-- IPv4 Prefix: 10.0.0.0/24
-- DHCP: Enabled
-- IPv6: Disabled
-
-This network configuration provided the virtual machine with a network environment for connectivity testing.
-
-**Screenshot: VirtualBox NAT Network Configuration**
-
-![NAT Network Configuration](screenshots/04-virtualbox-nat-network-configuration.jpg)
-
-### 7.5 Testing Network Connectivity
+### 7.4 Testing Network Connectivity
 
 After completing the network configuration, a connectivity test was performed using the Linux terminal.
 
@@ -176,7 +147,7 @@ This confirmed that the Kali Linux virtual machine could communicate with the ex
 
 ![Ping Test](IMG-20261105-WA0024.jpg)
 
-### 7.6 Testing Internet Access Using Firefox
+### 7.5 Testing Internet Access Using Firefox
 
 Finally, Firefox was opened inside Kali Linux.
 
@@ -261,7 +232,7 @@ During the internship, I learned these concepts through explanations and guidanc
 
 The practical exercise helped me connect theoretical networking concepts with their actual implementation in a virtual laboratory.
 
-## 11. Skills and Knowledge Acquired
+## 10. Skills and Knowledge Acquired
 
 Through this laboratory exercise, I gained practical knowledge and experience in:
 
@@ -275,40 +246,23 @@ Through this laboratory exercise, I gained practical knowledge and experience in
 - Testing network connectivity using the ping command.
 - Verifying Internet access using Firefox.
 - Troubleshooting basic virtualization and networking problems.
+-Learning About Virtual Machine Snapshots
+A snapshot allows you to save the current state of a virtual machine at a particular moment. This means that if something goes wrong later, you can return to the saved state without having to install and configure everything again.
 
 One of the most important things I learned was how to independently configure a Kali Linux virtual laboratory and establish network connectivity.
 
-## 12. Self-Assessment
 
-After completing this practical exercise, I feel very confident about setting up another Kali Linux virtual laboratory independently.
 
-I now have a better understanding of the steps involved in configuring a virtual machine, establishing a NAT Network, assigning network settings, and testing connectivity.
-
-This experience has also increased my interest in learning more about networking and cybersecurity.
-
-## 13. Security and Ethical Considerations
+## 11. Security and Ethical Considerations
 
 This laboratory environment is intended for educational purposes and authorized cybersecurity practice.
 
 All cybersecurity experiments, network scans, and penetration testing activities must be performed only on systems that I own or have explicit permission to test.
 
-## 14. Conclusion
 
-The cybersecurity laboratory setup was successfully completed using Oracle VM VirtualBox and Kali Linux.
+## 12. Author Information
 
-The virtual machine was connected to a NAT Network, configured with a manual IPv4 address, and tested using the ping command and Firefox browser.
-
-The successful connectivity tests demonstrated that the virtual machine could communicate with an external IP address and access web resources.
-
-Although I encountered some difficulties during the process, including VirtualBox configuration issues and personal challenges, I successfully completed the practical exercise.
-
-This internship provided me with a valuable foundation in virtualization, Linux environments, network configuration, and basic cybersecurity laboratory setup.
-
-It also increased my confidence in independently creating and configuring a virtual cybersecurity laboratory.
-
-## 15. Author Information
-
-- **Author:** [Your Full Name]
+- **Author:** Ishatse Fleury
 - **Project:** Cybersecurity Lab Setup
 - **Host Operating System:** Windows
 - **Virtualization Platform:** Oracle VM VirtualBox 7.2.22
